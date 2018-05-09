@@ -1,0 +1,49 @@
+Terminal:
+
+Algunos framework requieren uso de consola.
+
+Hay que hacer bach-up. git, drive, etc
+
+cd: change directory
+
+mkdir: make a directory
+
+puntos historicos ------> hitos
+
+branch o rama: es como una realidad alterna que nacio en algun punto del proyecto. Rama principal: Master.
+
+git: comando para trabajar en el repo local.
+
+https://git-scm.com/ -----> Instalar git (windows)
+
+goglear: como instalar git en ubuntu
+
+1.sudo apt-get update
+2.sudo apt-get install git-core
+3.git --version
+
+los repositorios son por carpeta.
+
+git init ---> crea un repositorio vacío. Si lo vuelvo a ejecutar y el repo tiene archivos salta error, a menos que el repo este vacio.
+
+git config --global user.email "e.fraffo@gmail.com" ----> setea firma en el repo
+
+rm -R .git -----> borra el repo
+
+
+Conectar el repo local con el remoto (nube):
+1) Creo el de la nube
+2) conecto con el local
+
+git remote add origin https://github.com/EstebanRaffo/repo_clase10.git
+
+Ahora estan conectados.
+
+git remote -v ----> devuelve el repo al que apunta
+
+Hacer paquete con carpeta css->styles e index y luego agregarlo al stage, para despues llevarlo al remo remoto.
+
+
+
+
+

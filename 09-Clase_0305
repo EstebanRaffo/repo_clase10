@@ -1,0 +1,129 @@
+- Resolucion Ejercicio 8.
+
+Imagenes son: 
+
+1) Version mobile.
+2) Version tablet.
+3) Version PC.
+
+Se agrega tambien libreria ionicons.
+
+normalize no implementa selector universal.
+
+img -> width: 100% -> img se ajusta al 100% de su padre contenedor.
+
+puedo aplicar una variable:
+
+:root{
+	--grayColor:
+}
+
+luego en el body uso backgr: variable
+
+En card uso border-radius: 10px -> para darle curvatura al vertice del marco.
+
+.card img aplico box-shadow para darle sombra a la imagen.
+
+
+.social-media a{
+	width: 30
+	height: 30
+	background-color:
+	border-radius:
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+	font-size: 2em;
+}
+
+
+display: flex no va en el body ni en el selector universal.
+
+
+Bootstrap: Es una librería, no es un framework (espacio de trabajo elaborado).
+
+FW: Laravel, Simphony
+
+Librerias JS: jquery, react, Angular
+
+Librerias css: ion.icons, google fonts, normalize, bootstrap.
+
+template: algo ya armado. solo se cambian img y txt. Tienda nube.
+
+
+Al descargar la bootstrap vienen 2 versiones: sass(preprocesador para css) o formato precompilado.
+
+puedo crear una hoja de estilo styles.sass desde el terminal (dentro del dir del proyecto). 
+
+sass permite calcular anchos por una cuenta, css no. Tiene funciones que css no tiene.
+
+Programo un for en el sass y se crean los selectores en el css según lo programado. Implementa un lenguaje tipo JS en css.
+
+http://getbootstrap.com/ ------> bajar la v4.
+
+bootstrap.min.css ------> hoja de estilo minificada (minimizada)
+
+
+arch minificado saca los espacios y saltos de linea para hacer que la pagina cargue mas rapido.
+
+los proy deben tener 2 ver: una para nosotros y otra para la maquina.
+
+
+https://cssminifier.com/  -------> pongo mi codigo y me lo pasa a minificado
+
+
+conviene tener las dos ver asi edito sobre la mia. La hoja de estilo normal pesa mucho mas que la minificada.
+
+bootstrap.css y bootstrap.min.css  ---> las que necesito.
+
+puedo elejir solo el que tiene las grillas 
+
+
+Bootstrap 4 ------> tutorial de youtube
+
+div class="container-fluid" -----> ocupa siempre el 100% del screen
+
+div class = "col-sm-8" ---> desde 8 en adelante 
+
+en una fila puede haber hasta 12 columnas.
+
+navegadores tienen motor de renderizacion.	
+
+imput de tipo date
+
+quiero columna -> implemento Class = "row"  (cada columna tiene subcolumnas)
+
+columnas estan contenidas en un row. Dentro de class puedo poner distintas clases
+
+
+resolucion small ----> col-sm-6, resolucion md ----> col-md-4 -----> 12 col como max, sobran 2 
+
+si uso col-6 ---> es el punto 0, desde que arranca la estructura.
+
+sm se implementa desde 576 para arriba, si no le digo nada se impl desde 0 para arriba.
+
+
+todo lo que no este en la slide bajarlo de la doc de getbootstrap.com. Ver estructuras de código. Ver para que sirve y usar.
+Hay que saber que reglas implementar y copiarlas de ahi.
+
+
+<div class = "row justify-content-md-center" 
+
+si alcanza la resol md justifica el contenido a la mitad
+	
+
+opcion offset: margen equivalente a un tamaño de columna, de 2, 3, etc. offset = 3 equivale a margin = 25 % en ¡Hola Mundo! 
+
+atributos de accesibilidad -
+
+plantilla: html basico + vinc de boots + vinc de jquery
+
+
+<iframe src="link de mapa" width=....>
+
+
+- Hacer TP Bootstrap.	
+
+
+
